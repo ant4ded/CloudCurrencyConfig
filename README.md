@@ -1,0 +1,4 @@
+# CloudCurrencyConfig
+
+Конфигурация окружения
+
