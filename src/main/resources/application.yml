@@ -1,1 +1,12 @@
-spring.application.name=CloudCurrencyConfig
+server:
+  port: 8888
+
+spring:
+  application:
+    name: CloudCurrencyConfig
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ant4ded/CloudCurrencyConfig.git
+          clone-on-start: true
