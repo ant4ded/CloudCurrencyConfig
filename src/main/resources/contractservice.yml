@@ -1,0 +1,3 @@
+rate:
+  starter:
+    url: https://api.nbrb.by/exrates/rates
