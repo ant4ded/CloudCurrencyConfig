@@ -1,3 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/idp
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: dbuser
+
 rate:
   starter:
     url: https://api.nbrb.by/exrates/rates
